@@ -149,8 +149,8 @@ li {
     margin-right:5%;
    }
    .main {
-    width:230px;
-    height:120px;
+    width:200px;
+    height:100px;
     background-size: auto;
     background-attachment: local;
     background-image: url(images/tronn_sm.jpg);
@@ -171,21 +171,21 @@ li {
     font-size:20px;
    }
    footer {
-    height: 7em;
+    height: 8em;
    }
    .flex {
     height: 150px;
    }
    .main3 {
-    width:380px;
-    height:200px;
+    width:200px;
+    height:100px;
     background-size: auto;
     background-attachment: local;
     background-image: url(images/main77_sm.jpg);
    }
    .main2 {
-    width:380px;
-    height:200px;
+    width:200px;
+    height:100px;
     background-size: auto;
     background-attachment: local;
     background-image: url(images/saintttt_sm.jpg);
