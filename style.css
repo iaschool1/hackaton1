@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    background-image: url(images/It\ was\ perfect.png);
+    background-attachment: fixed;
+}
+
+.header {
+    width: 90%;
+    height: 3em;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 5%;
+    background-color: #4F3B8A;
+    border-radius: 10px;
+    margin-top: 3%;
+    color:aliceblue;
+    font-weight: 900;
+    font-family: 'Ubuntu', sans-serif;
+}
+.CH3 {
+    color: aliceblue;
+    font-weight: 900;
+    justify-content: space-around;
+}
+p {
+    font-family: 'Ubuntu', sans-serif;
+}
+.inner {
+    background-color: aliceblue;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    padding: 5%;
+    color: #535353;
+}
+.main {
+   background-image: url(images/tr00nn\ 1trouun.jpg);
+   width: 1200px;
+   height: 500px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-size: cover;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   border-radius: 10px;
+}
+.headA {
+    text-decoration: none;
+    color:inherit;
+}
+footer {
+    width: 90%;
+    height: 8em;
+    background-color: #4F3B8A;
+    border-radius: 10px;
+    color: #DADADA;
+    font-weight: 900;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 5%;
+}
+li {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 42px;
+    margin: 3%;
+}
+.flex {
+    width: 17vw;
+    height: 350px;
+    border-radius: 10px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin:7%;
+}
+.anketaa:hover {
+    animation: scale1 1.5s;
+    animation-direction: alternate;
+}
+@keyframes scale1 {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.25);
+    }
+}
+.bambino {
+    text-decoration: none;
+    color: inherit;
+}
+.foot {
+    font-size: 42px;
+    margin: 2%;
+}
+.pantiac {
+    display: flex;
+    justify-content: space-around;
+}
+.best {
+    font-family: 'Rubik', sans-serif;
+    font-size: 42px;
+}
+.main2 {
+    background-image: url(images/saintttt\ 1.jpg);
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+ }
+ .head {
+    width: 16vw;
+    height: 30vh;
+    margin-top:3%;
+ }
+ .main3 {
+    background-image: url(images/main77\ 1.jpg);
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+ }
+ @media (max-width: 480px) {
+   .head {
+       width:30vw;
+   }
+   .header {
+    margin-top:5%;
+    margin-left:5%;
+    margin-right:5%;
+   }
+   .main {
+    width:380px;
+    height:200px;
+    background-size: auto;
+    background-attachment: local;
+    background-image: url(images/tronn_sm.jpg);
+   }
+   h2 {
+    font-size:20px;
+   }
+   .best {
+    font-size:18px;
+   }
+   h1 {
+    font-size:20px;
+   }
+   li {
+    font-size: 18px;
+   }
+   .foot {
+    font-size:20px;
+   }
+   footer {
+    height: 6em;
+   }
+   .flex {
+    height: 150px;
+   }
+   .main3 {
+    width:380px;
+    height:200px;
+    background-size: auto;
+    background-attachment: local;
+    background-image: url(images/main77_sm.jpg);
+   }
+   .main2 {
+    width:380px;
+    height:200px;
+    background-size: auto;
+    background-attachment: local;
+    background-image: url(images/saintttt_sm.jpg);
+   }
+   p {
+    font-size: 12px;
+   }
+ }
+
+ @media (max-width: 767px) {
+    .header {
+        width: 90%;
+        }
+   .main {
+    width:600px;
+    height: 300px;
+    background-size: auto;
+    background-attachment: local;
+    background-image: url(images/tronn_hor.jpg);
+   }
+   .head {
+    width: 34vw;
+   }
+   .main2 {
+    width:600px;
+    height: 300px;
+    background-size: auto;
+    background-attachment: local;
+    background-image: url(images/saintttt_hor.jpg);
+   }
+   .main3 {
+    width:600px;
+    height: 300px;
+    background-size: auto;
+    background-attachment: local;
+    background-image: url(images/main77_hor.jpg);
+   }
+   h2 {
+    font-size:24px;
+   }
+   .best {
+    font-size:20px;
+   }
+   h1 {
+    font-size:28px;
+   }
+   li {
+    font-size: 20px;
+   }
+   .foot {
+    font-size:20px;
+   }
+   footer {
+    height: 4em;
+   }
+   .flex {
+    height: 150px;
+   }
+   .CH3 {
+    margin-left: 10%;
+   }
+   p {
+    font-size: 12px;
+   }
+ }
+ 
+ @media (min-width: 768px) and (max-width: 991px) {
+    h2 {
+        font-size:24px;
+       }
+       .best {
+        font-size:26px;
+       }
+       h1 {
+        font-size:28px;
+       }
+       li {
+        font-size: 26px;
+       }
+       .foot {
+        font-size:26px;
+       }
+       footer {
+        height: 7em;
+       }
+       .flex {
+        height: 150px;
+       }
+       .CH3 {
+        margin-left: 10%;
+       }
+       .head {
+        height: 23vh;
+        width: 30vw;
+       }
+       .header {
+        width: 90%;
+        }
+        .main {
+            width:600px;
+            height: 300px;
+            background-size: auto;
+            background-attachment: local;
+            background-image: url(images/tronn_hor.jpg);
+           }
+           .main2 {
+            width:600px;
+            height: 300px;
+            background-size: auto;
+            background-attachment: local;
+            background-image: url(images/saintttt_hor.jpg);
+           }
+           .main3 {
+            width:600px;
+            height: 300px;
+            background-size: auto;
+            background-attachment: local;
+            background-image: url(images/main77_hor.jpg);
+           }
+           p {
+            font-size: 12px;
+           }
+ }
+
+ @media (min-width: 992px) and (max-width: 1199px) {
+    .main {
+        width:790px;
+        height: 350px;
+        background-size: auto;
+        background-attachment: local;
+        background-image: url(images/tron_laaaast.jpg);
+       }
+       .main2 {
+        width:790px;
+        height: 350px;
+        background-size: auto;
+        background-attachment: local;
+        background-image: url(images/saint_laaaast.jpg);
+       }
+       .main3 {
+        width:790px;
+        height: 350px;
+        background-size: auto;
+        background-attachment: local;
+        background-image: url(images/main77_laaaast.jpg);
+       }
+       p {
+        font-size: 12px;
+       }
+       h2 {
+        font-size:24px;
+       }
+       .best {
+        font-size:26px;
+       }
+       h1 {
+        font-size:28px;
+       }
+       li {
+        font-size: 26px;
+       }
+       .foot {
+        font-size:26px;
+       }
+       footer {
+        height: 5em;
+       }
+       .flex {
+        height: 150px;
+       }
+       .CH3 {
+        margin-left: 10%;
+       }
+       .head {
+        height: 23vh;
+        width: 30vw;
+       }
+       .header {
+        width: 90%;
+        }
+ }
+ 
