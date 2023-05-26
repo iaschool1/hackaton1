@@ -149,8 +149,8 @@ li {
     margin-right:5%;
    }
    .main {
-    width:380px;
-    height:200px;
+    width:230px;
+    height:120px;
     background-size: auto;
     background-attachment: local;
     background-image: url(images/tronn_sm.jpg);
@@ -171,7 +171,7 @@ li {
     font-size:20px;
    }
    footer {
-    height: 6em;
+    height: 7em;
    }
    .flex {
     height: 150px;
